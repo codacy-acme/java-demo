@@ -31,6 +31,7 @@ public class JavaDemoApplication extends Application<JavaDemoConfiguration> {
     }
 
     public boolean maybeIsOdd(int x){
+        boolean firstTest = x % 2 == 1;
         return x % 2 == 1;
     }
 
