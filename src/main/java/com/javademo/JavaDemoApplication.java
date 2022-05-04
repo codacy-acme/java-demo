@@ -30,4 +30,8 @@ public class JavaDemoApplication extends Application<JavaDemoConfiguration> {
         return x % 2 == 1;
     }
 
+    public boolean maybeIsOdd(int x){
+        return x % 2 == 1;
+    }
+
 }
