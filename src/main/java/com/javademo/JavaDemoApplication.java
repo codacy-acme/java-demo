@@ -26,4 +26,8 @@ public class JavaDemoApplication extends Application<JavaDemoConfiguration> {
         // TODO: implement application
     }
 
+    public boolean isOdd(int x){
+        return x % 2 == 1;
+    }
+
 }
